@@ -1,0 +1,56 @@
+# React Frontend .gitignore
+
+# Dependency directories
+node_modules/
+build/
+dist/
+.cache/
+coverage/
+.temp/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Log files
+*.log
+
+
+# Python Backend .gitignore
+
+# Python virtual environment
+venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Dependency lock files
+pyproject.toml
+poetry.lock
+
+# Development and runtime directories
+__pycache__/
+.db.sqlite3
+db.sqlite3
+
+# Local settings file
+settings_local.py
+
+# Log files
+logs/
+*.log
+
+# Ignore IDE or editor specific files/directories
+.vscode/
+.idea/

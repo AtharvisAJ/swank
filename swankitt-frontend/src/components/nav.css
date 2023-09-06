@@ -1,0 +1,80 @@
+/* Navbar.css (or your preferred CSS file) */
+/* app.css */
+.App {
+    text-align: center;
+  }
+  
+  /* Update the color for the logo text to match the navbar */
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+    color: ivory; /* Match the logo text color with the navbar */
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  /* Update the background color to match the navbar */
+  .App-header {
+    background-color: eggshell; /* Match the background color with the navbar */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #333; /* Dark grey text color */
+  }
+  
+  /* Update the link color to match the navbar */
+  .App-link {
+    color: ivory; /* Match the link text color with the navbar */
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+.navbar {
+    background-color: ivory; /* Eggshell background color */
+    color: #333; /* Dark grey text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .navbar-logo a {
+    text-decoration: none;
+    color: #333 !important; /* Add !important to ensure the color takes precedence */
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-links li {
+    font-size: 1rem;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #333 !important; /* Add !important to ensure the color takes precedence */
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
